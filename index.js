@@ -45,7 +45,7 @@ app.post("/call-callback", function(req, res){
     var body = req.body;
     res.sendStatus(200);
     if(body.eventType === "answer"){
-        client.Call.speakSentence(body.callId, "Hello my nams is shaniqua you are fabulous in every way")
+        client.Call.speakSentence(body.callId, "Kitty Cats are Kitty Cats")
         .then(function () {
             console.log("speak sentence sent");
         })
