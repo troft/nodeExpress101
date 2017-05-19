@@ -1,0 +1,27 @@
+{
+  "name": "nodeexpress101",
+  "version": "0.0.1",
+  "description": "My first express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'no test yet'",
+    "hello": "echo 'world'",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "bandwidth",
+    "node",
+    "intro",
+    "express",
+    "calling",
+    "texting",
+    "auto-response"
+  ],
+  "author": "Jillian Troftgruben",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "node-bandwidth": "^2.3.2"
+  }
+}
